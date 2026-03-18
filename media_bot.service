@@ -1,0 +1,19 @@
+[Unit]
+Description=Media Downloader Telegram Bot (24/7 Headless)
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_UBUNTU_USERNAME_HERE
+WorkingDirectory=/home/YOUR_UBUNTU_USERNAME_HERE/super_media_dl_bot
+ExecStart=/home/YOUR_UBUNTU_USERNAME_HERE/super_media_dl_bot/.venv/bin/python /home/YOUR_UBUNTU_USERNAME_HERE/super_media_dl_bot/run_bot.py
+
+# Auto Restart if the bot crashes
+Restart=always
+RestartSec=10
+
+# Security masking
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

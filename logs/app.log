@@ -1,0 +1,1176 @@
+2026-03-18 11:01:05 - INFO - Application initialized.
+2026-03-18 11:04:55 - INFO - Application initialized.
+2026-03-18 11:05:55 - INFO - Application initialized.
+2026-03-18 11:06:29 - INFO - Application initialized.
+2026-03-18 11:06:35 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:06:39 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getMe "HTTP/1.1 200 OK"
+2026-03-18 11:06:39 - INFO - Application started
+2026-03-18 11:06:40 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-18 11:06:40 - INFO - Bot is running globally!
+2026-03-18 11:06:50 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:06:55 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:06:56 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:06:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:06:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:07:01 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:07:01 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:07:06 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:07:06 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-03-18 11:07:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:07:07 - INFO - Downloading mp3 : https://youtu.be/vVwTYSNGVFU?si=7gMX3ZlUfu85HDGV
+2026-03-18 11:07:09 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:07:12 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:07:13 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:07:13 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:07:13 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:07:16 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:07:26 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:07:33 - ERROR - Error during download/upload process: Timed out
+2026-03-18 11:07:34 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:07:37 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:07:47 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:07:57 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:08:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:08:18 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:08:28 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:08:37 - INFO - Settings saved by user.
+2026-03-18 11:08:38 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:08:48 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:08:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:10:22 - INFO - Application initialized.
+2026-03-18 11:10:24 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:10:25 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getMe "HTTP/1.1 200 OK"
+2026-03-18 11:10:25 - INFO - Application started
+2026-03-18 11:10:25 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-18 11:10:25 - INFO - Bot is running globally!
+2026-03-18 11:10:25 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:10:26 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:10:28 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:10:28 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:10:36 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:10:37 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:10:38 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-03-18 11:10:38 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:10:38 - INFO - Downloading mp3 : https://youtu.be/rpdvUlEsodc?si=n1lkg3E-MsWdtvdF
+2026-03-18 11:10:40 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:10:43 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:10:43 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:10:43 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:10:47 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:10:57 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:11:02 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendAudio "HTTP/1.1 200 OK"
+2026-03-18 11:11:03 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:11:08 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:11:18 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:11:28 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:11:38 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:11:49 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:11:59 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:12:09 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:12:19 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:12:29 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:12:40 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:12:50 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:13:00 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:13:10 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:13:20 - INFO - Settings saved by user.
+2026-03-18 11:13:21 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:13:31 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:13:41 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:13:51 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:14:57 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:14:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getMe "HTTP/1.1 200 OK"
+2026-03-18 11:14:58 - INFO - Application started
+2026-03-18 11:14:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-18 11:14:58 - INFO - Bot is running globally!
+2026-03-18 11:15:08 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:15:19 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:15:29 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:15:39 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:15:49 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:16:00 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:16:10 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:16:20 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:16:30 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:16:40 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:16:51 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:17:01 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:17:11 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:17:21 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:17:32 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:17:42 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:17:52 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:02 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:12 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:23 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:33 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:43 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:45 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:47 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:18:48 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:48 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:49 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:49 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:18:51 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:18:51 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:52 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:52 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:52 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:54 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:18:55 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:18:59 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:19:03 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:19:03 - INFO - Initializing Standalone Media Downloader Bot...
+2026-03-18 11:19:03 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:19:04 - INFO - Bot is running globally!
+2026-03-18 11:19:04 - INFO - Standalone Bot successfully initialized. Press Ctrl+C to stop.
+2026-03-18 11:19:04 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-03-18 11:19:05 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:19:05 - INFO - Downloading mp3 : https://youtu.be/vFBWXqyb5P0?si=DZpPuKEG9hZ23mYD
+2026-03-18 11:19:05 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:19:05 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:19:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:19:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:19:10 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:19:10 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:19:12 - INFO - Stopping Telegram Bot...
+2026-03-18 11:19:12 - INFO - Bot stopped.
+2026-03-18 11:19:12 - INFO - Standalone Bot completely stopped.
+2026-03-18 11:19:22 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:19:28 - ERROR - Error during download/upload process: Timed out
+2026-03-18 11:19:28 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:19:32 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:19:43 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:19:53 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:19:59 - INFO - Initializing Standalone Media Downloader Bot...
+2026-03-18 11:19:59 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:20:00 - INFO - Bot is running globally!
+2026-03-18 11:20:00 - INFO - Standalone Bot successfully initialized. Press Ctrl+C to stop.
+2026-03-18 11:20:01 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:20:01 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:20:06 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:20:06 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:20:13 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:20:13 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:20:21 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:20:21 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:20:30 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:20:31 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getMe "HTTP/1.1 200 OK"
+2026-03-18 11:20:31 - INFO - Application started
+2026-03-18 11:20:31 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-18 11:20:31 - INFO - Bot is running globally!
+2026-03-18 11:20:36 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:20:37 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:20:37 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:20:37 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:20:49 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:20:50 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:20:50 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:20:56 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:20:57 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:20:59 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:21:00 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:21:01 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:21:02 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-03-18 11:21:02 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:21:02 - INFO - Downloading mp3 : https://youtu.be/vFBWXqyb5P0?si=DZpPuKEG9hZ23mYD
+2026-03-18 11:21:04 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:21:04 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:21:06 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:21:06 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:21:17 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:21:24 - ERROR - Error during download/upload process: Timed out
+2026-03-18 11:21:25 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:21:27 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:21:28 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:21:28 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:21:39 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:21:49 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:21:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:21:58 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:22:10 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:22:20 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:22:30 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:22:33 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:22:33 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:22:45 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:22:55 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:23:05 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:23:08 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:23:08 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:23:19 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:23:23 - INFO - Initializing Standalone Media Downloader Bot...
+2026-03-18 11:23:23 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 11:23:23 - INFO - Bot is running globally!
+2026-03-18 11:23:23 - INFO - Standalone Bot successfully initialized. Press Ctrl+C to stop.
+2026-03-18 11:23:24 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:23:24 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:23:30 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:23:30 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:23:31 - INFO - Stopping Telegram Bot...
+2026-03-18 11:23:32 - INFO - Bot stopped.
+2026-03-18 11:23:32 - INFO - Standalone Bot completely stopped.
+2026-03-18 11:23:41 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:23:43 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:23:43 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:23:54 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:23:57 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:23:58 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:23:59 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:24:00 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:24:03 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:24:03 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-03-18 11:24:03 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:03 - INFO - Downloading mp3 : https://youtu.be/3NSBbA2KYLk?si=Sg3LP_IXrl3gce7b
+2026-03-18 11:24:05 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:07 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:13 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:24:18 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:24:18 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:24:24 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendAudio "HTTP/1.1 200 OK"
+2026-03-18 11:24:25 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:29 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:24:37 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:24:38 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendMessage "HTTP/1.1 200 OK"
+2026-03-18 11:24:44 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendPhoto "HTTP/1.1 200 OK"
+2026-03-18 11:24:44 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/deleteMessage "HTTP/1.1 200 OK"
+2026-03-18 11:24:47 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:24:50 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:24:51 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-03-18 11:24:52 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:52 - INFO - Downloading mp4 1920: https://www.tiktok.com/@sengularity89/video/7618373576340540686?is_from_webapp=1&sender_device=pc
+2026-03-18 11:24:53 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 409 Conflict"
+2026-03-18 11:24:53 - ERROR - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tansaphea/Documents/5. Persional/Project Learning/super_media_dl_bot/.venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-18 11:24:54 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:55 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:56 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:24:56 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:25:04 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:25:10 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/sendVideo "HTTP/1.1 200 OK"
+2026-03-18 11:25:11 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/editMessageCaption "HTTP/1.1 200 OK"
+2026-03-18 11:25:14 - INFO - HTTP Request: POST https://api.telegram.org/bot8792072796:AAGBu4jpgsOiOpZfMFV59okVhBq6M5Iw5zk/getUpdates "HTTP/1.1 200 OK"
+2026-03-18 11:25:40 - INFO - Downloading mp4 1920: https://www.tiktok.com/@sengularity89/video/7618373576340540686?is_from_webapp=1&sender_device=pc
+2026-03-18 11:38:44 - INFO - Downloading m4a : https://www.tiktok.com/@tansaphea123/video/7521359751385566465?is_from_webapp=1&sender_device=pc&web_id=7492707765987968530
+2026-03-18 11:38:55 - ERROR - Error during download/upload process: Timed out
+2026-03-18 11:40:27 - INFO - Downloading mp4 1280: https://www.tiktok.com/@tansaphea123/video/7521359751385566465?is_from_webapp=1&sender_device=pc&web_id=7492707765987968530
+2026-03-18 11:41:05 - INFO - Downloading mp3 : https://youtu.be/3NSBbA2KYLk?si=H-VeY718QuDHgW-2

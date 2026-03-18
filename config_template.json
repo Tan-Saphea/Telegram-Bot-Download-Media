@@ -1,0 +1,7 @@
+{
+    "bot_token": "",
+    "download_folder": "downloads",
+    "ffmpeg_path": "",
+    "max_file_size_mb": 50,
+    "format_preference": "best"
+}
