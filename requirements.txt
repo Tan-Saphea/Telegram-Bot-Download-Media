@@ -2,3 +2,4 @@ PyQt5>=5.15.9
 python-telegram-bot>=21.0.1
 yt-dlp>=2024.3.10
 aiohttp>=3.9.3
+python-dotenv>=1.0.0

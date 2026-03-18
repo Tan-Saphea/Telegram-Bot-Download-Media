@@ -1,7 +1,11 @@
 {
-    "bot_token": "",
-    "download_folder": "downloads",
-    "ffmpeg_path": "",
-    "max_file_size_mb": 50,
-    "format_preference": "best"
+  "bot_token": "",
+  "download_path": "downloads/",
+  "ffmpeg_path": "",
+  "max_file_size": 50.0,
+  "admin_ids": [],
+  "database_path": "history.db",
+  "log_dir": "logs/",
+  "rate_limit_per_minute": 5,
+  "enable_ssl_verify": true
 }

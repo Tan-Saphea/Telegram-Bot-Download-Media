@@ -1192,3 +1192,4 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2026-03-18 20:34:57 - INFO - Downloading mp3 : https://youtu.be/oshQg1uSRvg?si=lZIAHKRYzkklGtrV
 2026-03-18 20:41:49 - INFO - Initializing Telegram Bot with token 8792...w5zk
 2026-03-18 20:41:50 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-18 23:13:49 - WARNING - Domain not in whitelist: malicious.com

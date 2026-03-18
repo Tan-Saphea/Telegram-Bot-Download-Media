@@ -49,38 +49,45 @@ class MediaBot:
     async def stats_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not self._is_admin(update.message.from_user.id):
             await update.message.reply_text("⛔️ You do not have admin permissions.")
+            logger.warning(f"Unauthorized stats access attempt by user {update.message.from_user.id}")
             return
         dl_cnt, user_cnt = get_stats()
         text = f"📊 <b>Bot Statistics</b>\n\n👥 Total Unique Users: {user_cnt}\n⬇️ Total Downloads: {dl_cnt}"
         await update.message.reply_html(text)
+        logger.info(f"Admin {update.message.from_user.id} viewed stats")
 
     async def users_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not self._is_admin(update.message.from_user.id):
+            logger.warning(f"Unauthorized users access attempt by user {update.message.from_user.id}")
             return
         rows = get_recent_users(15)
         text = "👥 <b>Recent Users Dashboard</b>\n\n"
         for r in rows:
-            text += f"ID: <code>{r[0]}</code> | @{r[1]} | Spams: {r[2]}\n"
+            text += f"ID: <code>{r[0]}</code> | @{r[1]} | Uses: {r[2]}\n"
         await update.message.reply_html(text)
+        logger.info(f"Admin {update.message.from_user.id} viewed users list")
 
     async def health_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not self._is_admin(update.message.from_user.id):
+            logger.warning(f"Unauthorized health access attempt by user {update.message.from_user.id}")
             return
         await update.message.reply_html("🟢 Bot Core: <b>Healthy</b>\n✅ Network Socket: <b>Connected</b>\n⚡️ Polling System: <b>Asynchronous Fast</b>")
+        logger.info(f"Admin {update.message.from_user.id} checked health")
 
     async def auto_handle_url(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         url = update.message.text.strip()
         user_id = update.message.from_user.id
         username = update.message.from_user.username or update.message.from_user.first_name or str(user_id)
         
-        # Check URL validity basically
-        if not url.startswith("http"):
-            await update.message.reply_text("❌ Please send a valid URL starting with http:// or https://")
+        # Check URL validity with updated validator
+        if not YTDownloader.is_url_valid(url):
+            await update.message.reply_text("❌ Invalid URL. Please send a link from a supported platform (YouTube, TikTok, Facebook, etc.)")
             return
             
-        allowed, wait_sec = check_rate_limit(user_id, username, limit_per_min=5)
+        allowed, wait_sec = check_rate_limit(user_id, username, limit_per_min=self.config.get("rate_limit_per_minute", 5))
         if not allowed:
             await update.message.reply_text(f"⏳ Anti-Spam protection active. Please wait {wait_sec} seconds before requesting again.")
+            logger.warning(f"Rate limit hit for user {user_id}")
             return
 
         msg = await update.message.reply_text("🔍 Analyzing link...")
@@ -95,7 +102,7 @@ class MediaBot:
             
             info = await downloader.extract_info_async(url)
             
-            title = info.get('title', 'Unknown Media')
+            title = info.get('title', 'Unknown Media')[:100]
             duration = self.format_duration(info.get('duration'))
             resolutions = info.get('resolutions', [])
             
@@ -138,13 +145,16 @@ class MediaBot:
                     await context.bot.send_photo(chat_id=update.effective_chat.id, photo=thumbnail, caption=text, reply_markup=reply_markup, parse_mode="HTML")
                     await msg.delete()
                 except Exception as e:
-                    logger.warning(f"Could not send thumbnail UI: {e}")
+                    logger.warning(f"Could not send thumbnail: {e}")
                     await msg.edit_text(text, reply_markup=reply_markup, parse_mode="HTML")
             else:
                 await msg.edit_text(text, reply_markup=reply_markup, parse_mode="HTML")
             
+        except ValueError as e:
+            logger.warning(f"Invalid URL from user {user_id}: {e}")
+            await msg.edit_text("❌ This platform is not supported or the URL is invalid.")
         except Exception as e:
-            logger.error(f"Bot failed to process URL {url}: {e}")
+            logger.error(f"Bot failed to process URL: {e}")
             await msg.edit_text("❌ Failed to process URL. Ensure the platform is supported and the video is public.")
 
     async def button_callback(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -169,30 +179,40 @@ class MediaBot:
         url = self.user_requests.get(user_id)
         if not url:
             msg = "❌ Request expired or already processed. Please resend the link."
-            await query.edit_message_caption(msg) if query.message.caption else await query.edit_message_text(msg)
+            try:
+                await query.edit_message_caption(msg) if query.message.caption else await query.edit_message_text(msg)
+            except Exception:
+                pass
             return
 
         # Evict url so user cannot spam click duplicate formats locally
         self.user_requests.pop(user_id, None)
 
         status_msg = "⏳ Initiating download... This might take a while for large files."
-        await query.edit_message_caption(status_msg) if query.message.caption else await query.edit_message_text(status_msg)
+        try:
+            await query.edit_message_caption(status_msg) if query.message.caption else await query.edit_message_text(status_msg)
+        except Exception:
+            pass
         
+        file_path = None
         try:
             # Edit callback throttle
             last_edit_time = [0]
             
             def progress_cb(percent, speed, eta):
                 now = time.time()
-                # Edit message at most every 3 seconds to avoid FloodWait limits globally
+                # Edit message at most every 3 seconds to avoid FloodWait limits
                 if now - last_edit_time[0] > 3.0 or percent == 100:
                     last_edit_time[0] = now
                     # We schedule this in the event loop properly since progress_cb runs in sync threads
                     text = f"⏳ <b>Downloading... {percent:.1f}%</b>\n🚀 Speed: {speed}\n⏱️ ETA: {eta}"
-                    asyncio.run_coroutine_threadsafe(
-                        self._async_edit_msg(query, text), 
-                        self.application.updater.bot.get_request().loop
-                    ) if not hasattr(self, '_loop') else asyncio.run_coroutine_threadsafe(self._async_edit_msg(query, text), self._loop)
+                    try:
+                        asyncio.run_coroutine_threadsafe(
+                            self._async_edit_msg(query, text), 
+                            self.application.updater.bot.get_request().loop
+                        ) if not hasattr(self, '_loop') else asyncio.run_coroutine_threadsafe(self._async_edit_msg(query, text), self._loop)
+                    except Exception as e:
+                        logger.debug(f"Progress update error: {e}")
 
             # Keep a reference to the main loop to invoke updates thread-safely per request
             self._loop = asyncio.get_running_loop()
@@ -211,32 +231,42 @@ class MediaBot:
             elif action == 'aud':
                 res = await local_dl.download_media_async(url, format_type=fmt_res, progress_cb=progress_cb)
                 db_fmt = f"Audio {fmt_res.upper()}"
+            else:
+                logger.warning(f"Unknown action: {action}")
+                await self._safe_edit_message(query, "❌ Invalid request")
+                return
 
             if not res['success']:
-                err_msg = f"❌ Download structurally failed (Could be private or deleted)."
-                await query.edit_message_caption(err_msg) if query.message.caption else await query.edit_message_text(err_msg)
+                err_msg = "❌ Download failed (Could be private, deleted, or unsupported)"
+                await self._safe_edit_message(query, err_msg)
                 return
 
             file_path = res['file_path']
             file_size_mb = res['size'] / (1024 * 1024)
             max_size = self.config.get("max_file_size", 50)
             
-            add_download_record(os.path.basename(file_path), url, db_fmt, res['size'])
+            # Record download in database
+            add_download_record(os.path.basename(file_path), url, db_fmt, res['size'], user_id=user_id)
 
             # Automatic heavy compression fallback for free-tier Telegram Bots
             if file_size_mb > max_size:
                 if action == 'vid':
-                    compress_msg = f"⏳ File too large ({file_size_mb:.1f} MB), executing native ffmpeg compression specifically to fit {max_size} MB Telegram limit. Please wait..."
-                    await query.edit_message_caption(compress_msg) if query.message.caption else await query.edit_message_text(compress_msg)
+                    compress_msg = f"⏳ File too large ({file_size_mb:.1f} MB). Compressing to fit {max_size} MB limit..."
+                    await self._safe_edit_message(query, compress_msg)
                     
                     compressed_file = file_path.rsplit('.', 1)[0] + '_compressed.mp4'
                     try:
                         proc = await asyncio.create_subprocess_exec(
-                            'ffmpeg', '-y', '-i', file_path, '-vf', 'scale=-2:480', '-vcodec', 'libx264', '-crf', '28', '-preset', 'fast', compressed_file,
+                            'ffmpeg', '-y', '-i', file_path, 
+                            '-vf', 'scale=-2:480', 
+                            '-vcodec', 'libx264', 
+                            '-crf', '28', 
+                            '-preset', 'fast',
+                            compressed_file,
                             stdout=asyncio.subprocess.DEVNULL,
                             stderr=asyncio.subprocess.DEVNULL
                         )
-                        await proc.wait()
+                        await asyncio.wait_for(proc.wait(), timeout=600)  # 10 min timeout
                         
                         if os.path.exists(compressed_file):
                             try:
@@ -245,52 +275,100 @@ class MediaBot:
                                 pass
                             file_path = compressed_file
                             file_size_mb = os.path.getsize(file_path) / (1024 * 1024)
+                    except asyncio.TimeoutError:
+                        logger.error("Compression timeout")
                     except Exception as comp_e:
-                        logger.error(f"Compression sub-process natively failed: {comp_e}")
+                        logger.error(f"Compression failed: {comp_e}")
                 
-            # Secondary check if audio or if compression still failed bandwidth boundaries
+            # Secondary check if audio or if compression still failed
             if file_size_mb > max_size:
                 large_msg = (
-                    f"❌ Sorry, file intrinsically exceeds Telegram's absolute free upload limit even after compression ({file_size_mb:.1f} MB vs {max_size} MB max).\n"
-                    "Consider utilizing premium limits or external links."
+                    f"❌ File exceeds Telegram limit ({file_size_mb:.1f} MB > {max_size} MB).\n"
+                    "Consider using premium or external links."
                 )
-                await query.edit_message_caption(large_msg, parse_mode="HTML") if query.message.caption else await query.edit_message_text(large_msg, parse_mode="HTML")
-                try: 
-                    os.remove(file_path) # Clean up huge files gracefully
-                except Exception: pass
+                await self._safe_edit_message(query, large_msg)
+                self._cleanup_file(file_path)
                 return
 
-            up_msg = "📤 Finished processing. Dispatching file securely to Telegram..."
-            await query.edit_message_caption(up_msg) if query.message.caption else await query.edit_message_text(up_msg)
+            await self._safe_edit_message(query, "📤 Uploading to Telegram...")
             
-            # Exponential backoff loop specifically resolving random Timeout breaks during big loads
+            # Exponential backoff for upload retries
+            upload_success = False
             for attempt in range(3):
                 try:
                     with open(file_path, 'rb') as f:
                         if action == 'vid':
-                            await context.bot.send_video(chat_id=update.effective_chat.id, video=f, caption=f"🎬 Enjoy your video!\n<b>{res['title']}</b>", parse_mode="HTML", read_timeout=300, write_timeout=300, connect_timeout=300)
+                            await context.bot.send_video(
+                                chat_id=update.effective_chat.id, 
+                                video=f, 
+                                caption=f"🎬 Enjoy!\n<b>{res['title'][:100]}</b>", 
+                                parse_mode="HTML", 
+                                read_timeout=300, 
+                                write_timeout=300, 
+                                connect_timeout=300
+                            )
                         else:
-                            await context.bot.send_audio(chat_id=update.effective_chat.id, audio=f, caption=f"🎵 Enjoy!\n<b>{res['title']}</b>", parse_mode="HTML", read_timeout=300, write_timeout=300, connect_timeout=300)
-                    
-                    success_msg = "✅ Sent successfully!"
-                    await query.edit_message_caption(success_msg) if query.message.caption else await query.edit_message_text(success_msg)
+                            await context.bot.send_audio(
+                                chat_id=update.effective_chat.id, 
+                                audio=f, 
+                                caption=f"🎵 Enjoy!\n<b>{res['title'][:100]}</b>", 
+                                parse_mode="HTML", 
+                                read_timeout=300, 
+                                write_timeout=300, 
+                                connect_timeout=300
+                            )
+                    upload_success = True
                     break
                 except Exception as upload_e:
                     if attempt < 2:
-                        retry_msg = f"⏳ Network packet instability... Retrying upload securely (Attempt {attempt + 2}/3)"
-                        await query.edit_message_caption(retry_msg) if query.message.caption else await query.edit_message_text(retry_msg)
+                        retry_msg = f"⏳ Network unstable... Retrying ({attempt + 2}/3)"
+                        await self._safe_edit_message(query, retry_msg)
                         await asyncio.sleep(2)
                     else:
-                        raise upload_e
+                        logger.error(f"Upload failed after 3 attempts: {upload_e}")
+                        await self._safe_edit_message(query, "❌ Upload failed. Please try again later.")
+                        raise
             
-            # Explicit directory sweeping to prevent memory leaks from user traffic
-            try:
-                os.remove(file_path)
-            except Exception as clean_e:logger.debug(f"Could not auto-delete file: {clean_e}")
-
+            if upload_success:
+                try:
+                    await self._safe_edit_message(query, "✅ Sent successfully!")
+                except Exception:
+                    pass
+            
         except Exception as e:
-            logger.error(f"Error during overall download/upload process: {e}")
-            await context.bot.send_message(chat_id=update.effective_chat.id, text=f"❌ An error occurred trying to deliver this specific item (potentially format unsupported by server).")
+            logger.error(f"Error during download/upload: {e}")
+            await self._safe_send_message(update.effective_chat.id, context, f"❌ An error occurred: {type(e).__name__}")
+        finally:
+            # Always clean up the downloaded file
+            self._cleanup_file(file_path)
+
+    def _cleanup_file(self, file_path):
+        """Safely clean up downloaded files."""
+        if not file_path:
+            return
+        try:
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                logger.debug(f"Cleaned up file: {file_path}")
+        except Exception as e:
+            logger.warning(f"Could not delete file {file_path}: {e}")
+
+    async def _safe_edit_message(self, query, text):
+        """Safely edit message with fallback."""
+        try:
+            if query.message.caption:
+                await query.edit_message_caption(text, parse_mode="HTML")
+            else:
+                await query.edit_message_text(text, parse_mode="HTML")
+        except Exception as e:
+            logger.debug(f"Message edit error: {e}")
+
+    async def _safe_send_message(self, chat_id, context, text):
+        """Safely send message."""
+        try:
+            await context.bot.send_message(chat_id=chat_id, text=text, parse_mode="HTML")
+        except Exception as e:
+            logger.warning(f"Send message error: {e}")
 
     async def _async_edit_msg(self, query, text):
         try:
@@ -299,7 +377,7 @@ class MediaBot:
             else:
                 await query.edit_message_text(text, parse_mode="HTML")
         except Exception:
-            pass # ignore identical message errors thrown by telegram safely
+            pass  # Ignore identical message errors thrown by telegram safely
 
     async def start_polling(self):
         """Starts the bot asynchronously."""
