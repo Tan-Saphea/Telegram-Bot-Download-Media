@@ -15,22 +15,16 @@ async def main():
     logger.info("Initializing Standalone Media Downloader Bot...")
     logger.info("=" * 60)
     
+    # Create required directories at startup (for Choreo deployment)
+    for dir_name in ["logs", "downloads", "config", "data"]:
+        os.makedirs(dir_name, exist_ok=True)
+    logger.info("Required directories initialized")
+    
     # Load configuration
     config = SettingsManager()
     
-    # Validate configuration
-    errors = config.validate()
-    if errors:
-        logger.error("Configuration validation failed:")
-        for error in errors:
-            logger.error(f"  - {error}")
-        logger.error("\nPlease set BOT_TOKEN via environment variable:")
-        logger.error("  export BOT_TOKEN='your_token_here'")
-        logger.error("\nOr update config/config.json with your settings.")
-        sys.exit(1)
-    
-    # Set up database path from config
-    db_path = config.get("database_path", "history.db")
+    # Set up database path early (before validation)
+    db_path = config.get("database_path", "data/history.db")
     os.makedirs(os.path.dirname(db_path) or ".", exist_ok=True)
     set_db_path(db_path)
     
@@ -40,7 +34,19 @@ async def main():
         logger.info(f"Database initialized: {db_path}")
     except Exception as e:
         logger.error(f"Failed to initialize database: {e}")
-        sys.exit(1)
+    
+    # Validate configuration
+    errors = config.validate()
+    if errors:
+        logger.error("Configuration validation failed:")
+        for error in errors:
+            logger.error(f"  - {error}")
+        logger.error("\n⚠️  CHOREO DEPLOYMENT REQUIREMENT:")
+        logger.error("Set BOT_TOKEN in Choreo console → Service Settings → Environment Variables")
+        logger.error("Key: BOT_TOKEN, Value: your_telegram_bot_token")
+        logger.error("\nRetrying in 60 seconds...")
+        await asyncio.sleep(60)
+        return False
     
     # Initialize bot
     token = config.get("bot_token")
@@ -69,7 +75,19 @@ async def main():
 
 if __name__ == '__main__':
     try:
-        asyncio.run(main())
+        # Graceful retry loop for Choreo deployment
+        # If BOT_TOKEN isn't set, keep retrying instead of crashing
+        async def run_with_retry():
+            while True:
+                result = await main()
+                if result is not False:
+                    # main() completed successfully or returned None (normal operation)
+                    break
+                # main() returned False due to validation error - wait and retry
+                logger.info("Waiting 60 seconds before retry...")
+                await asyncio.sleep(60)
+        
+        asyncio.run(run_with_retry())
     except KeyboardInterrupt:
         logger.info("Bot shut down by user")
         sys.exit(0)
