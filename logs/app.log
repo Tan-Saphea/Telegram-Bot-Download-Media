@@ -1174,3 +1174,21 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2026-03-18 11:38:55 - ERROR - Error during download/upload process: Timed out
 2026-03-18 11:40:27 - INFO - Downloading mp4 1280: https://www.tiktok.com/@tansaphea123/video/7521359751385566465?is_from_webapp=1&sender_device=pc&web_id=7492707765987968530
 2026-03-18 11:41:05 - INFO - Downloading mp3 : https://youtu.be/3NSBbA2KYLk?si=H-VeY718QuDHgW-2
+2026-03-18 12:28:49 - INFO - Application initialized.
+2026-03-18 12:28:51 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 12:28:52 - INFO - Bot is running globally!
+2026-03-18 12:29:26 - INFO - Downloading mp4 720: https://www.tiktok.com/@tansaphea123/video/7521359751385566465?is_from_webapp=1&sender_device=pc&web_id=7492707765987968530
+2026-03-18 13:02:30 - INFO - Downloading mp4 720: https://youtu.be/UHeJEATIm-o?si=TUNHg-HgpmfLLHY2
+2026-03-18 20:33:23 - INFO - Initializing Standalone Media Downloader Bot...
+2026-03-18 20:33:23 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 20:33:25 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-18 20:33:25 - INFO - Standalone Bot successfully initialized. Press Ctrl+C to stop.
+2026-03-18 20:33:38 - INFO - Decommissioning Telegram Bot services gracefully...
+2026-03-18 20:33:39 - INFO - Bot offline.
+2026-03-18 20:33:39 - INFO - Standalone Bot completely stopped.
+2026-03-18 20:34:35 - INFO - Application initialized.
+2026-03-18 20:34:38 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 20:34:39 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-18 20:34:57 - INFO - Downloading mp3 : https://youtu.be/oshQg1uSRvg?si=lZIAHKRYzkklGtrV
+2026-03-18 20:41:49 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-18 20:41:50 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!

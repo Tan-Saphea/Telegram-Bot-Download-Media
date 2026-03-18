@@ -45,11 +45,13 @@ nano config/config.json
 ```json
 {
     "bot_token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+    "admin_ids": [123456789],
     "download_path": "downloads/",
     "ffmpeg_path": "",
     "max_file_size": 50.0
 }
 ```
+*Note: Ensure you grab your explicit numbers-only Telegram User ID using `@userinfobot` and insert it into `admin_ids` without quotes. This enables you to use `/stats`, `/users`, and `/health` strictly.*
 
 ### 4. Test it!
 ```bash

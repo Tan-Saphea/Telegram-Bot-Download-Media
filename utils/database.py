@@ -105,3 +105,15 @@ def clear_history():
     cursor.execute('DELETE FROM downloads')
     conn.commit()
     conn.close()
+
+def get_recent_users(limit=15):
+    conn = sqlite3.connect(DB_FILE)
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT user_id, username, usage_count, last_used 
+        FROM users 
+        ORDER BY last_used DESC LIMIT ?
+    ''', (limit,))
+    rows = cursor.fetchall()
+    conn.close()
+    return rows

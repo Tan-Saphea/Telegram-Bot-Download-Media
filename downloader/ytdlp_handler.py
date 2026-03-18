@@ -25,8 +25,8 @@ class DownloadProgressHook:
                 self.progress_callback(100.0, "Finished", "00:00")
 
 class YTDownloader:
-    def __init__(self, download_dir, ffmpeg_path=""):
-        self.download_dir = download_dir
+    def __init__(self, download_dir, ffmpeg_path="", user_id="shared"):
+        self.download_dir = os.path.join(download_dir, str(user_id))
         if not os.path.exists(self.download_dir):
             os.makedirs(self.download_dir)
             

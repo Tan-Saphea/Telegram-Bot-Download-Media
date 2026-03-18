@@ -8,6 +8,7 @@ class SettingsManager:
     def __init__(self):
         self.config = {
             "bot_token": "",
+            "admin_ids": [],
             "download_path": "downloads/",
             "ffmpeg_path": "",
             "max_file_size": 50
