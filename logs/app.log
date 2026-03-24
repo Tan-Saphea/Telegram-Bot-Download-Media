@@ -1193,3 +1193,165 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2026-03-18 20:41:49 - INFO - Initializing Telegram Bot with token 8792...w5zk
 2026-03-18 20:41:50 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
 2026-03-18 23:13:49 - WARNING - Domain not in whitelist: malicious.com
+2026-03-19 18:28:00 - INFO - ============================================================
+2026-03-19 18:28:00 - INFO - Initializing Standalone Media Downloader Bot...
+2026-03-19 18:28:00 - INFO - ============================================================
+2026-03-19 18:28:00 - INFO - Required directories initialized
+2026-03-19 18:28:00 - INFO - Database initialized successfully
+2026-03-19 18:28:00 - INFO - Database initialized: history.db
+2026-03-19 18:28:00 - ERROR - Configuration validation failed:
+2026-03-19 18:28:00 - ERROR -   - BOT_TOKEN not configured. Set it via environment variable or config/config.json
+2026-03-19 18:28:00 - ERROR - 
+⚠️  CHOREO DEPLOYMENT REQUIREMENT:
+2026-03-19 18:28:00 - ERROR - Set BOT_TOKEN in Choreo console → Service Settings → Environment Variables
+2026-03-19 18:28:00 - ERROR - Key: BOT_TOKEN, Value: your_telegram_bot_token
+2026-03-19 18:28:00 - ERROR - 
+Retrying in 60 seconds...
+2026-03-19 18:28:30 - INFO - Bot shut down by user
+2026-03-19 18:28:33 - INFO - Initializing Standalone Media Downloader Bot for Cloud Deployment...
+2026-03-19 18:28:33 - ERROR - No valid bot_token found. Ensure you have populated your environment variables.
+2026-03-19 18:28:50 - INFO - Database initialized successfully
+2026-03-19 18:28:50 - INFO - Application initialized.
+2026-03-19 18:29:21 - INFO - Settings saved by user.
+2026-03-19 18:29:23 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-19 18:29:24 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-19 18:29:40 - INFO - Downloading mp4 best: https://www.facebook.com/share/r/1FmKURPpLg/?mibextid=wwXIfr
+2026-03-19 18:29:44 - INFO - Download recorded: 7.5K_views_547_reactions_Comment_SFX_for_instant_access_The_exact_sounds_we_use_to_elevate_our_edits._videoediting_editingtricks_musicedit_sounddesign [NA].mp4 (MP4)
+2026-03-19 18:30:44 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1FmKURPpLg/?mibextid=wwXIfr
+2026-03-19 18:30:49 - INFO - Download recorded: 7.5K_views_547_reactions_Comment_SFX_for_instant_access_The_exact_sounds_we_use_to_elevate_our_edits._videoediting_editingtricks_musicedit_sounddesign [NA].mp4 (Video 1280p)
+2026-03-19 18:31:09 - INFO - Decommissioning Telegram Bot services gracefully...
+2026-03-19 18:35:48 - INFO - Database initialized successfully
+2026-03-19 18:35:48 - INFO - Application initialized.
+2026-03-19 18:35:49 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-19 18:35:50 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-19 18:36:34 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CMhQ4XtY6/
+2026-03-19 18:36:38 - INFO - Download recorded: 13K_views_177_reactions_Comment_SFX_for_instant_access_SFX_Pack_52_100_ready_for_your_timeline._videoediting_editingtricks_musicedit_sounddesign_reels [NA].mp4 (Video 1280p)
+2026-03-19 18:37:22 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1DwSCKVDdG/
+2026-03-19 18:37:25 - INFO - Download recorded: 7.6K_views_50_reactions_Comment_SFX_below_to_get_the_links_These_are_the_little_details_that_make_your_videos_hit_harder._videoediting_editingtricks_m [NA].mp4 (Video 1280p)
+2026-03-19 18:37:43 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1Zhf5YsaPi/
+2026-03-19 18:37:46 - INFO - Download recorded: 84K_views_1.4K_reactions_Comment_SFX_if_you_want_cleaner_transitions_This_pack_covers_texture_tension_and_impact._videoediting_editingtricks_musicedit [NA].mp4 (Video 1280p)
+2026-03-19 18:38:15 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1DbntMD1yS/
+2026-03-19 18:38:18 - INFO - Download recorded: 43K_views_960_reactions_Comment_SFX_to_upgrade_your_audio_One_pack._Endless_uses._videoediting_editingtricks_musicedit_sounddesign_reelstransitions_Br [NA].mp4 (Video 1280p)
+2026-03-19 18:38:45 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/18St778tdB/
+2026-03-19 18:38:50 - INFO - Download recorded: 26K_views_59_reactions_Comment_SFX_to_get_the_sounds_we_use_in_this_edit._Built_to_make_every_cut_hit_harder._videoediting_editingtricks_musicedit_sou [NA].mp4 (Video 1280p)
+2026-03-19 18:39:14 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:39:54 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/18WUZNgwzB/
+2026-03-19 18:39:57 - INFO - Download recorded: 17K_views_110_reactions_Comment_SFX_to_get_the_pack_New_sounds_smoother_edits._videoediting_videoeditingtips_editingtricks_musicedit_sounddesign_smoot [NA].mp4 (Video 1280p)
+2026-03-19 18:40:23 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1D8wKQTDZ2/
+2026-03-19 18:40:26 - INFO - Download recorded: 6.2K_views_826_reactions_Comment_SFX_for_fresh_sound_effects_Upgrade_your_edits_in_seconds._videoediting_editingtricks_musicedit_sounddesign_reelstran [NA].mp4 (Video 1280p)
+2026-03-19 18:41:03 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1DMbMNUwBc/
+2026-03-19 18:41:07 - INFO - Download recorded: 10K_views_80_reactions_Comment_SFX_to_get_the_pack_Fresh_sounds._Clean_cuts._Better_edits._videoediting_videoeditingtips_editingtricks_musicedit_sound [NA].mp4 (Video 1280p)
+2026-03-19 18:41:44 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1JiMXvXH2J/
+2026-03-19 18:41:48 - INFO - Download recorded: 50K_views_938_reactions_Comment_SFX_and_I_ll_send_the_pack_If_your_visuals_are_on_point_your_sound_should_be_too._videoediting_videoeditingtips_editin [NA].mp4 (Video 1280p)
+2026-03-19 18:42:25 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CSWoH1ACN/
+2026-03-19 18:42:28 - INFO - Download recorded: 4.1K_views_27_reactions_Comment_SFX_and_we_ll_DM_you_the_pack._Elevate_your_edits_in_seconds._videoediting_videoeditingtips_editingtricks_musicedit_so [NA].mp4 (Video 1280p)
+2026-03-19 18:42:59 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:43:45 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1FSMPMfjtS/
+2026-03-19 18:43:50 - INFO - Download recorded: 10K_views_55_reactions_Comment_SFX_to_get_the_sounds_Your_timeline_will_thank_you_later._videoediting_videoeditingtips_editingtricks_musicedit_soundde [NA].mp4 (Video 1280p)
+2026-03-19 18:44:22 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CXRoBDUJ4/
+2026-03-19 18:44:25 - INFO - Download recorded: 13K_views_1K_reactions_Comment_SFX_to_download_the_set_Part_40_100_of_the_sound_effects_series._Keep_leveling_up_your_edits._videoediting_videoediting [NA].mp4 (Video 1280p)
+2026-03-19 18:44:52 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1BDHeVG1GZ/
+2026-03-19 18:44:56 - INFO - Download recorded: 90K_views_648_reactions_Comment_SFX_and_I_ll_DM_the_pack_Whooshes_clinks_and_drums_everything_you_need_to_spice_up_your_edits_videoediting_videoeditin [NA].mp4 (Video 1280p)
+2026-03-19 18:45:39 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/18YuGsR5ai/
+2026-03-19 18:45:48 - INFO - Download recorded: 9.1K_views_39_reactions_Comment_SFX_to_download_Part_38_100_the_SFX_series._More_packs_coming._videoediting_videoeditingtips_editingtricks_musicedit_s [NA].mp4 (Video 1280p)
+2026-03-19 18:46:18 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/14WCDiLZ3eG/
+2026-03-19 18:46:25 - INFO - Download recorded: 5K_views_550_reactions_Comment_SFX_for_the_drop_Another_sound_effect_pack_to_level_up_your_timeline._videoediting_videoeditingtips_editingtricks_music [NA].mp4 (Video 1280p)
+2026-03-19 18:46:49 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:47:32 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1WdrYsAzSw/
+2026-03-19 18:47:36 - INFO - Download recorded: 6.6K_views_14_reactions_Comment_SFX_for_this_pack_If_your_visuals_are_on_point_your_sound_should_be_too._videoediting_videoeditingtips_editingtricks_m [NA].mp4 (Video 1280p)
+2026-03-19 18:48:10 - INFO - Downloading m4a best: https://www.facebook.com/share/r/17UcEKtrnP/
+2026-03-19 18:48:14 - INFO - Download recorded: 18K_views_21_reactions_Comment_SFX_for_the_drop_Another_sound_effect_pack_to_level_up_your_timeline._videoediting_videoeditingtips_editingtricks_music.m4a (Audio M4A)
+2026-03-19 18:48:31 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/17UcEKtrnP/
+2026-03-19 18:48:35 - INFO - Download recorded: 18K_views_21_reactions_Comment_SFX_for_the_drop_Another_sound_effect_pack_to_level_up_your_timeline._videoediting_videoeditingtips_editingtricks_music [NA].mp4 (Video 1280p)
+2026-03-19 18:49:04 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1DPyNpRLa3/
+2026-03-19 18:49:15 - INFO - Download recorded: 7.6K_views_24_reactions_Comment_SFX_and_I_ll_DM_the_pack_Clean_hits_whooshes_risers_Everything_you_need_to_spice_up_your_edits._videoediting_videoedit [NA].mp4 (Video 1280p)
+2026-03-19 18:49:52 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1EjGik1sMv/
+2026-03-19 18:49:58 - INFO - Download recorded: 6.9K_views_19_reactions_Comment_SFX_below_to_grab_the_pack_These_are_the_little_details_that_make_your_videos_hit_harder._videoediting_videoeditingtip [NA].mp4 (Video 1280p)
+2026-03-19 18:50:23 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:50:39 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:50:56 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1HzvCRouEe/
+2026-03-19 18:51:05 - INFO - Download recorded: 12K_views_33_reactions_Comment_SFX_for_the_pack_Because_visuals_are_good..._but_sound_makes_them_unforgettable._videoediting_videoeditingtips_editingt [NA].mp4 (Video 1280p)
+2026-03-19 18:51:54 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/19ppyJEhiE/
+2026-03-19 18:51:57 - INFO - Download recorded: 10K_views_33_reactions_Comment_SFX_for_the_pack_Because_visuals_are_good..._but_sound_makes_them_unforgettable._videoediting_videoeditingtips_editingt [NA].mp4 (Video 1280p)
+2026-03-19 18:52:37 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1RcUdUnJ26/
+2026-03-19 18:52:41 - INFO - Download recorded: 13_reactions_Brad_Ziemer_on_Reels [NA].mp4 (Video 1280p)
+2026-03-19 18:53:16 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1G7BTiK5GC/
+2026-03-19 18:53:19 - INFO - Download recorded: 1.2K_views_18_reactions_Brad_Ziemer_on_Reels [NA].mp4 (Video 1280p)
+2026-03-19 18:53:53 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1G3SwJ5pFu/
+2026-03-19 18:53:59 - INFO - Download recorded: 1.1K_views_14_reactions_Brad_Ziemer_on_Reels [NA].mp4 (Video 1280p)
+2026-03-19 18:54:29 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:55:10 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CjN7ZQVi8/
+2026-03-19 18:55:15 - INFO - Download recorded: 18K_views_738_comments_Comment_SFX_for_the_pack_Because_visuals_are_good..._but_sound_makes_them_unforgettable._videoediting_videoeditingtips_editingt [NA].mp4 (Video 1280p)
+2026-03-19 18:55:50 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CocV4K12T/
+2026-03-19 18:55:54 - INFO - Download recorded: 59K_views_18_reactions_Comment_SFX_and_I_ll_DM_the_pack_Perfect_for_transitions_ramps_and_making_any_clip_feel_instantly_cinematic._videoediting_video [NA].mp4 (Video 1280p)
+2026-03-19 18:56:33 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1Ed6iVGXNc/
+2026-03-19 18:56:37 - INFO - Download recorded: 30K_views_27_reactions_Comment_SFX_and_upgrade_your_edits_This_pack_slaps._Your_timeline_will_thank_you._videoediting_videoeditingtips_editingtricks_m [NA].mp4 (Video 1280p)
+2026-03-19 18:57:03 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/174L9aZq7n/
+2026-03-19 18:57:08 - INFO - Download recorded: 6K_views_2.5K_reactions_Comment_SFX_if_you_want_this_entire_pack_Your_videos_are_about_to_sound_so_much_smoother._videoediting_videoeditingtips_editin [NA].mp4 (Video 1280p)
+2026-03-19 18:57:45 - INFO - Downloading mp3 best: https://www.facebook.com/share/r/1B7ES9ziKs/
+2026-03-19 18:57:49 - INFO - Download recorded: 927K_views_45_reactions_Comment_SFX_to_download_the_set_Part_26_100_of_the_sound_effects_series._Keep_leveling_up_your_edits_videoediting_videoediting.m4a (Audio MP3)
+2026-03-19 18:57:55 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 18:59:44 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1B7ES9ziKs/
+2026-03-19 18:59:48 - INFO - Download recorded: 927K_views_45_reactions_Comment_SFX_to_download_the_set_Part_26_100_of_the_sound_effects_series._Keep_leveling_up_your_edits_videoediting_videoediting [NA].mp4 (Video 1280p)
+2026-03-19 19:00:40 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CWKTz5sRW/
+2026-03-19 19:00:47 - INFO - Download recorded: 18K_views_23_reactions_Comment_SFX_to_grab_the_pack_Another_drop_of_transitions_hits_whooshes_and_all_the_good_stuff_your_edits_are_missing._videoedit [NA].mp4 (Video 1280p)
+2026-03-19 19:01:24 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/14XXHcPyzpw/
+2026-03-19 19:01:28 - INFO - Download recorded: 134K_views_38_reactions_SFX_pack_drop_Comment_SFX_below_and_I_ll_send_them_your_way_videoediting_videoeditingtips_editingtricks_musicedit_sounddesign_ [NA].mp4 (Video 1280p)
+2026-03-19 19:02:00 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1LL3TUFr3J/
+2026-03-19 19:02:04 - INFO - Download recorded: 26K_views_77_reactions_Comment_SFX_and_I_ll_send_you_my_real_estate_SFX_pack_so_you_can_upgrade_your_videos_instantly_videoediting_videoeditingtips_ed [NA].mp4 (Video 1280p)
+2026-03-19 19:02:56 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/18P1wiKsRW/
+2026-03-19 19:03:01 - INFO - Download recorded: 62K_views_41_reactions_Comment_SFX_for_my_pack_for_cinematic_real_estate_effects_Follow_for_more_tips_tricks_and_tools_videoediting_videoeditingtips_e [NA].mp4 (Video 1280p)
+2026-03-19 19:03:41 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 19:04:13 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1bkuAbuTZy/
+2026-03-19 19:04:16 - INFO - Download recorded: 12K_views_43_reactions_Comment_SFX_and_get_my_curated_pack_of_real_estate_sound_effects_Follow_for_more_tools_that_make_your_videos_look_and_sound_pre [NA].mp4 (Video 1280p)
+2026-03-19 19:04:44 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/18EB5GBB4s/
+2026-03-19 19:04:48 - INFO - Download recorded: 7.6K_views_27_reactions_Comment_SFX_below_and_I_ll_send_you_my_go-to_real_estate_sound_effects_Follow_for_more_resources_that_make_your_listings_stand [NA].mp4 (Video 1280p)
+2026-03-19 19:05:22 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1QFwipXQNd/
+2026-03-19 19:05:27 - INFO - Download recorded: 365K_views_153_reactions_Comment_SFX_below_and_I_ll_send_you_my_go-to_real_estate_sound_effects_Follow_for_more_resources_that_make_your_listings_stan [NA].mp4 (Video 1280p)
+2026-03-19 19:06:24 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1DF56F2nzo/
+2026-03-19 19:06:29 - INFO - Download recorded: 9.5K_views_32_reactions_Comment_SFX_below_and_I_ll_send_them_to_you_Follow_for_more_resources_that_make_your_listings_stand_out_videoediting_videoedit [NA].mp4 (Video 1280p)
+2026-03-19 19:07:32 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1ASDDSiu82/
+2026-03-19 19:07:38 - INFO - Download recorded: 3.1K_views_59_reactions_Comment_SFX_for_the_full_set_Because_visuals_tell_the_story_but_audio_makes_it_unforgettable._videoediting_videoeditingtips_ed [NA].mp4 (Video 1280p)
+2026-03-19 19:08:20 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CQdEJqrPU/
+2026-03-19 19:08:25 - INFO - Download recorded: 6.8K_views_44_reactions_Comment_SFX_for_the_full_set_videoediting_videoeditingtips_editingtricks_musicedit_sounddesign_smoothcuts_reelstransitions_con [NA].mp4 (Video 1280p)
+2026-03-19 19:09:18 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CMJz3zcL7/
+2026-03-19 19:09:26 - INFO - Download recorded: 11K_views_14K_reactions_Comment_SFX_below_These_are_the_little_details_that_make_your_videos_hit_harder._videoediting_videoeditingtips_editingtricks_s [NA].mp4 (Video 1280p)
+2026-03-19 19:09:49 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1CUrwpVQve/
+2026-03-19 19:09:58 - INFO - Download recorded: 4.6K_views_32_reactions_Comment_SFX_for_the_full_set_videoediting_videoeditingtips_editingtricks_musicedit_sounddesign_smoothcuts_reelstransitions_con [NA].mp4 (Video 1280p)
+2026-03-19 19:10:36 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1GPELtAfKp/
+2026-03-19 19:10:47 - INFO - Download recorded: 3.1K_views_348_comments_Comment_SFX_for_the_full_set_Because_visuals_tell_the_story_but_audio_makes_it_unforgettable._videoediting_videoeditingtips_ed [NA].mp4 (Video 1280p)
+2026-03-19 19:11:03 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 19:11:18 - WARNING - Rate limit hit for user 7563309100
+2026-03-19 19:11:33 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/17AbNYsgqM/
+2026-03-19 19:11:41 - INFO - Download recorded: 12K_views_36_reactions_Comment_SFX_and_I_ll_send_you_this_pack._We_re_at_10_100_and_the_library_just_keeps_growing._videoediting_videoeditingtips_edit [NA].mp4 (Video 1280p)
+2026-03-19 19:12:05 - INFO - Downloading mp4 1280: https://www.facebook.com/share/r/1DS4PfQZaG/
+2026-03-19 19:12:08 - INFO - Download recorded: 64K_views_15_reactions_Comment_SFX_to_claim_the_pack_Your_transitions_are_about_to_level_up_videoediting_videoeditingtips_editingtricks_musicedit_soun [NA].mp4 (Video 1280p)
+2026-03-21 10:26:42 - INFO - Database initialized successfully
+2026-03-21 10:26:42 - INFO - Application initialized.
+2026-03-21 10:26:55 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-21 10:26:56 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-21 10:27:19 - INFO - Downloading mp3 best: https://www.tiktok.com/@aldihaasa/video/7579979855194901781?is_from_webapp=1&sender_device=pc
+2026-03-21 10:27:20 - INFO - Download recorded: Love_me_not._lovemenot_ravynlenae_lyrics_song_fyp.mp4 (Audio MP3)
+2026-03-21 10:27:55 - INFO - Decommissioning Telegram Bot services gracefully...
+2026-03-23 17:52:27 - INFO - Database initialized successfully
+2026-03-23 17:52:28 - INFO - Application initialized.
+2026-03-23 17:53:04 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-23 17:53:06 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-23 17:53:50 - INFO - Downloading mp4 1280: https://www.tiktok.com/@tansaphea123/video/7521359751385566465?is_from_webapp=1&sender_device=pc&web
+2026-03-23 17:53:52 - INFO - Download recorded: BacII_A_Website_... [720x1280].mp4 (Video 1280p)
+2026-03-23 18:53:34 - INFO - Database initialized successfully
+2026-03-23 18:53:34 - INFO - Application initialized.
+2026-03-23 18:53:46 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-23 18:53:47 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-23 18:54:26 - INFO - Downloading mp4 1280: https://www.tiktok.com/@tansaphea123/video/7487449436671560967?is_from_webapp=1&sender_device=pc&web
+2026-03-23 18:54:28 - INFO - Download recorded: Telegram_BOT_Khmer_telegram_fyp_sharing_know... [720x1280].mp4 (Video 1280p)
+2026-03-24 15:24:44 - INFO - Database initialized successfully
+2026-03-24 15:24:44 - INFO - Application initialized.
+2026-03-24 15:24:46 - INFO - Initializing Telegram Bot with token 8792...w5zk
+2026-03-24 15:24:48 - INFO - Bot is effectively live, multi-threaded, and publicly listening globally!
+2026-03-24 15:24:52 - ERROR - Extraction error: [0;31mERROR:[0m Unsupported URL: https://www.tiktok.com/@brooke_user/photo/7616323025415212308?_r=1&_t=ZS-94vsd1geBeu
+2026-03-24 15:24:52 - ERROR - Bot failed to process URL: [0;31mERROR:[0m Unsupported URL: https://www.tiktok.com/@brooke_user/photo/7616323025415212308?_r=1&_t=ZS-94vsd1geBeu
+2026-03-24 15:25:04 - INFO - Downloading mp4 1080: https://youtu.be/_8uN9XSkB8o?si=rFQzSzHv_xnrKgHT
+2026-03-24 15:25:12 - INFO - Download recorded: Pamali_3_2026 [640x360].mp4 (Video 1080p)
+2026-03-24 23:23:51 - INFO - Database initialized successfully
+2026-03-24 23:23:51 - INFO - Application initialized.
