@@ -1,6 +1,7 @@
 import asyncio
 import sys
 import os
+from aiohttp import web
 
 # Ensure the import path is set correctly if running from the CLI
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -9,6 +10,10 @@ from config.settings import SettingsManager
 from bot.telegram_bot import MediaBot
 from utils.logger import logger
 from utils.database import init_db, set_db_path
+
+async def health_check(request):
+    """Simple HTTP endpoint for cloud platform health checks."""
+    return web.Response(text="Media Downloader Bot is running and healthy! 🟢")
 
 async def main():
     logger.info("=" * 60)
@@ -58,6 +63,18 @@ async def main():
     logger.info("Starting bot polling...")
     await bot.start_polling()
     
+    # Cloud Deployment Web Server (Binds to $PORT to satisfy Render/Heroku healthchecks)
+    port = int(os.environ.get("PORT", 8080))
+    app_web = web.Application()
+    app_web.router.add_get('/', health_check)
+    app_web.router.add_get('/health', health_check)
+
+    runner = web.AppRunner(app_web)
+    await runner.setup()
+    site = web.TCPSite(runner, '0.0.0.0', port)
+    logger.info(f"Binding HTTP Dummy Health Check Server to Port {port}...")
+    await site.start()
+    
     logger.info("Standalone Bot successfully initialized. Press Ctrl+C to stop.")
     logger.info("=" * 60)
     
@@ -71,6 +88,10 @@ async def main():
         logger.info("Shutdown signal received (KeyboardInterrupt).")
     finally:
         await bot.stop()
+        try:
+            await runner.cleanup()
+        except:
+            pass
         logger.info("Standalone Bot completely stopped.")
 
 if __name__ == '__main__':
